@@ -1,0 +1,156 @@
+body {
+  text-align: left;
+  font-family: century gothic, arial;
+  font-size: 11pt;
+
+  margin: 5px 0px 5px 5px;
+
+  color: #f6af49;
+  background: black;
+
+  overflow: hidden;
+}
+
+a {
+  text-decoration: underline;
+  color: #f6af49;
+}
+a:hover {
+  text-decoration: none;
+  color: #f6af49;
+}
+
+img {
+  border: none;
+}
+#container {
+  position: absolute;
+  right: 37%;
+  height: 100%;
+  width: 100%;
+
+  border-top: 3px black dotted;
+  border-left: 3px black dotted;
+  border-bottom: 3px black dotted;
+
+  background: url(images/texture-bg.jpg) repeat-y right;
+  z-index: 2;
+
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+}
+
+#mimi-drii {
+  position: absolute;
+  top: 5%;
+  left: 100px;
+  height: 608px;
+  width: 382px;
+
+  background: url("images/mimi-drii.gif") no-repeat;
+  z-index: 3;
+}
+#crab {
+  position: relative;
+  top: 480px;
+  left: 110px;
+  height: 172px;
+  width: 181px;
+
+  background: url("images/crab.gif") no-repeat;
+  z-index: 4;
+}
+
+#volucris-face {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  height: 592px;
+  width: 354px;
+
+  background: url("images/volucris-face.jpg") no-repeat;
+  z-index: 1;
+}
+
+#volucris-eye {
+  position: absolute;
+  top: 307px;
+  right: 85px;
+  height: 144px;
+  width: 132px;
+
+  background: url("images/Volucris-faceeye.gif") no-repeat;
+  z-index: 2;
+}
+#volucris {
+  position: absolute;
+  top: 60%;
+  right: 160px;
+  height: 100px;
+  width: 311px;
+
+  z-index: 10;
+}
+#prawn-1 {
+  position: absolute;
+  top: 42%;
+  left: 50px;
+  height: 220px;
+  width: 106px;
+
+  z-index: 4;
+}
+
+#prawn-2 {
+  position: absolute;
+  top: 40%;
+  left: 340px;
+  height: 163px;
+  width: 152px;
+
+  z-index: 4;
+}
+#hotherym {
+  position: absolute;
+  top: 295px;
+  left: 78px;
+  height: 67px;
+  width: 335px;
+
+  background: url("images/hotherym.png") no-repeat;
+  z-index: 10;
+}
+#galleries {
+  position: absolute;
+  top: 430px;
+  left: 185px;
+  height: 62px;
+  width: 162px;
+
+  background: url("images/galleries-front.png") no-repeat;
+  z-index: 10;
+}
+
+#galleries img {
+  width: 0px;
+  height: 0px;
+}
+#galleries:hover img {
+  position: relative;
+  bottom: 230px;
+  left: 60px;
+  width: 292px;
+  height: 132px;
+}
+#hotherym img {
+  width: 0px;
+  height: 0px;
+}
+#hotherym:hover img {
+  position: relative;
+  bottom: 275px;
+  left: 160px;
+  width: 292px;
+  height: 132px;
+}
